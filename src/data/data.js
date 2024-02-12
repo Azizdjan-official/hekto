@@ -35,6 +35,12 @@ import categoryCard4 from "../images/ccard4.png"
 
 
 
+import latestBlog1 from "../images/latestBlog1.png"
+import latestBlog2 from "../images/latestBlog2.png"
+import latestBlog3 from "../images/latestBlog3.png"
+
+
+
 
 export const FeaturedProducts = [
     {
@@ -190,5 +196,63 @@ export const CategoryProducts = [
         image: categoryCard4,
         title: "Mini LCW Chair",
         price: "$56.00",
+    },
+]
+export const LatestCardInfo = [
+    {
+        id:1,
+        image: latestBlog1,
+        penIcon : "SaberAli",
+        date : "21 August,2020",
+        trend : "Top esssential Trends in 2021",
+        trendInfo : "More off this less hello samlande lied much over tightly circa horse taped mightly",
+    },
+    {
+        id:2,
+        image: latestBlog2,
+        penIcon : "Surfauxion",
+        date : "21 August,2020",
+        trend : "Top esssential Trends in 2021",
+        trendInfo : "More off this less hello samlande lied much over tightly circa horse taped mightly",
+    },
+    {
+        id:3,
+        image: latestBlog3,
+        penIcon : "SaberAli",
+        date : "21 August,2020",
+        trend : "Top esssential Trends in 2021",
+        trendInfo : "More off this less hello samlande lied much over tightly circa horse taped mightly",
+    },
+    
+]
+
+export const FooterLinks = [
+    {
+        id: 1,
+        title: "Catagories",
+        link1: "Laptops & Computers",
+        link2: "Cameras & Photography",
+        link3: "Smart Phones & Tablets",
+        link4: "Video Games & Consoles",
+        link5: "Waterproof Headphones",
+    },
+    {
+        id: 2,
+        title: "Customer Care",
+        link1: "My Account",
+        link2: "Discount",
+        link3: "Returns",
+        link4: "Orders History",
+        link5: "Order Tracking",
+    },
+    {
+        id: 3,
+        title: "Pages",
+        link1: "Blog",
+        link2: "Browse the Shop",
+        link3: "Category",
+        link4: "Pre-Built Pages",
+        link5: "Visual Composer Elements",
+        link6: "WooCommerce Pages",
     },
 ]
