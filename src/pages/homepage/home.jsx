@@ -6,6 +6,8 @@ import Shopexoffer from './shopexOffer/Shopexoffer';
 import Uniquefeatures from './uniqueFeatures/Uniquefeatures';
 import Trendingproduct from './trendingProducts/Trendingproduct';
 import Topcategories from './categories/Topcategories';
+import Subscribe from './GetSubscribe/Subscribe';
+import Logosection from './LogoSection/Logosection';
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <Uniquefeatures/>
         <Trendingproduct/>
         <Topcategories/>
+        <Subscribe/>
+        <Logosection/>
 
     </div>
   )

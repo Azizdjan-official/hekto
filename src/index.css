@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.subcribeBG
+{
+    height: 462px;
+    background: url(../src/images/subscribeBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logoSection
+{
+    width: 70%;
+    height: 93px;
+    cursor: pointer;
+    margin: 50px auto;
+    background: url(../src/images/LogoSection.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
